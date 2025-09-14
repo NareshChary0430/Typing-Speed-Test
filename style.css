@@ -1,0 +1,362 @@
+/* Reset default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Body styling for centered layout and gradient background */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 0 10px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+/* Main wrapper styling */
+.wrapper {
+  width: 100%;
+  max-width: 770px;
+  padding: 35px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Content box styling */
+.wrapper .content-box {
+  padding: 13px 20px 0;
+  border-radius: 10px;
+  border: 1px solid #bfbfbf;
+}
+
+/* Content area styling */
+.content-box .content {
+  margin-top: 17px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 0;
+  border-top: 1px solid #bfbfbf;
+}
+
+/* Result details section */
+.content-box .result-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: calc(100% - 140px); /* Corrected syntax */
+}
+
+/* List items within result details */
+.result-details li {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  height: 20px;
+}
+
+/* Button styling */
+.content button {
+  width: 105px;
+  padding: 8px 0;
+  background-color: orange;
+  color: #fff;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+/* Button active state */
+.content button:active {
+  transform: scale(0.98);
+}
+
+/* Optional: Add hover effect for better UX */
+.content button:hover {
+  background-color: darkorange;
+}
+
+
+.typing-text p span{
+  position:relative;
+}
+
+.typing-text p span.active{
+  color:orange
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Body styling */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #4e54c8 0%, #8f94fb 100%);
+  color: #333;
+}
+
+/* Main wrapper */
+.wrapper {
+  background: #fff;
+  max-width: 700px;
+  width: 100%;
+  padding: 30px 40px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  text-align: center;
+}
+
+/* Heading */
+.wrapper h1 {
+  margin-bottom: 20px;
+  font-size: 28px;
+  color: #4e54c8;
+}
+
+/* Typing text display */
+.text-typing {
+  min-height: 100px;
+  background: #f7f7f7;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  overflow-wrap: break-word;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+/* Input field styling */
+.input-field {
+  width: 100%;
+  padding: 12px 15px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: 2px solid #ddd;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+.input-field:focus {
+  border-color: #4e54c8;
+}
+
+/* Results box */
+.result-box {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.result-item {
+  flex: 1 1 45%;
+  background: #fafafa;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 15px;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.result-item:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.result-item p {
+  font-size: 14px;
+  color: #666;
+}
+
+.result-item span {
+  font-size: 20px;
+  font-weight: bold;
+  color: #4e54c8;
+}
+
+/* Restart button */
+.restart-btn {
+  margin-top: 25px;
+  padding: 12px 25px;
+  font-size: 16px;
+  color: #fff;
+  background: #4e54c8;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.restart-btn:hover {
+  background: #3b3fc1;
+  transform: scale(1.05);
+}
+
+.restart-btn:active {
+  transform: scale(0.98);
+}
+
+/* Active character styling */
+.text-typing p span.active {
+  color: #4e54c8;
+  text-decoration: underline;
+}
+
+
+/* Reset styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Body styling */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: radial-gradient(circle at top left, #7b2ff7, #f107a3);
+  color: #333;
+  transition: background 0.5s ease;
+}
+
+/* Main wrapper */
+.wrapper {
+  background: #ffffffee;
+  max-width: 720px;
+  width: 100%;
+  padding: 40px 30px;
+  border-radius: 20px;
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  backdrop-filter: blur(10px);
+}
+
+/* Heading */
+.wrapper h1 {
+  font-size: 32px;
+  color: #7b2ff7;
+  margin-bottom: 25px;
+  letter-spacing: 1px;
+}
+
+/* Typing text area */
+.text-typing {
+  min-height: 120px;
+  background: #f4f4f4;
+  border-radius: 15px;
+  padding: 20px;
+  margin-bottom: 25px;
+  overflow-wrap: break-word;
+  font-size: 18px;
+  line-height: 1.7;
+  box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: background 0.3s ease;
+}
+
+.text-typing:hover {
+  background: #eaeaea;
+}
+
+/* Input field */
+.input-field {
+  width: 100%;
+  padding: 14px 18px;
+  font-size: 16px;
+  border-radius: 12px;
+  border: 2px solid #ddd;
+  outline: none;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.input-field:focus {
+  border-color: #7b2ff7;
+  box-shadow: 0 0 8px rgba(123, 47, 247, 0.3);
+}
+
+/* Results box */
+.result-box {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 25px;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.result-item {
+  background: #fff;
+  border: 1px solid #eee;
+  border-radius: 12px;
+  padding: 20px;
+  width: 150px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.result-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+.result-item p {
+  font-size: 14px;
+  color: #888;
+  margin-bottom: 8px;
+}
+
+.result-item span {
+  font-size: 22px;
+  font-weight: 600;
+  color: #7b2ff7;
+}
+
+/* Restart button */
+.restart-btn {
+  margin-top: 30px;
+  padding: 14px 30px;
+  font-size: 16px;
+  color: #fff;
+  background: linear-gradient(45deg, #7b2ff7, #f107a3);
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.restart-btn:hover {
+  background: linear-gradient(45deg, #6a23d8, #d10093);
+  transform: scale(1.05);
+}
+
+.restart-btn:active {
+  transform: scale(0.97);
+}
+
+/* Active character styling */
+.text-typing p span.active {
+  color: #f107a3;
+  text-decoration: underline;
+}
+
+/* Smooth animation for typing */
+.text-typing p span {
+  transition: color 0.2s ease;
+}
